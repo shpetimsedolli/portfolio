@@ -1,12 +1,15 @@
-body {
-  text-align: center;
-}
-.mainexample {
-  background-color: red;
-  p {
-    font-size: 30px;
-  }
-  h3 {
-    color: yellow;
+.first_banner {
+  background-color: #754ef9;
+  position: relative;
+  height: 100vh;
+  &::after {
+    content: "";
+    background-color: #ffffff;
+    position: absolute;
+    width: 60%;
+    top: 15px;
+    z-index: 3;
+    height: calc(100% - 30px);
+    right: 15px;
   }
 }
