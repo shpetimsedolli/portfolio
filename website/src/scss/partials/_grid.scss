@@ -46,21 +46,10 @@
 
 .container {
   width: 100%;
-  max-width: 1088px;
+  max-width: 1118px;
   margin: 0 auto;
   position: relative;
-  @include tablet {
-    max-width: 732px;
-  }
-  @include tablet-big {
-    max-width: 970px;
-  }
-  @include desktop {
-    max-width: 1170px;
-  }
-  @include mobile {
-    padding: 0 15px;
-  }
+  padding: 0 15px;
 }
 
 //VISIBILITY CLASSES
