@@ -1,3 +1,4 @@
+
 .first_banner {
   background-color: #754ef9;
   position: relative;
@@ -19,5 +20,40 @@
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 4;
-  display: flex;
+  width: 100%;
+  .banner_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  .title_text {
+    .title__name {
+      display: flex;
+      align-items: center;
+      h1 {
+        font-size: 70px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-right: 40px;
+      }
+      h2 {
+        font-size: 70px;
+        color: #754ef9;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+.circle-1 {
+  color: #754ef9;
+  padding: 10px;
+  border-radius: 100%;
+}
+.circle-3 {
+  img{
+    border-radius: 100%;
+    object-fit: cover;
+  }
 }
