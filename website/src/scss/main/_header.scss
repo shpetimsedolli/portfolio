@@ -1,8 +1,17 @@
+.main_header {
+  position: absolute;
+  z-index: 9;
+  top: 0;
+  left: 0;
+}
+.is--sticky {
+  position: fixed;
+  background-color: #222222;
+  z-index: 10;
+}
 .headerWrap {
   display: flex;
   margin-top: 28px;
-  position: absolute;
-  z-index: 9;
   justify-content: space-between;
 }
 .logo {
