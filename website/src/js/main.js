@@ -1,3 +1,9 @@
+// $('.roll__image').load(
+//   function()
+//   {
+//       $(this).removeClass('.roll__image').addClass('.roll');
+//   }
+// );
 (function ($, window, document) {
   "use strict";
   $(function () {
@@ -15,4 +21,6 @@
       }
     });
   });
-})(window.jQuery, window, document);
+}
+
+)(window.jQuery, window, document);
