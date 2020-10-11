@@ -1,4 +1,2 @@
-window.jQuery = require("./jquery-1.12.4");
-require("./modernizr");
-require("./cssbrowserselector");
+window.jQuery = require("./jquery.min");
 require("./main");
